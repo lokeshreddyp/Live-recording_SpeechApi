@@ -10,7 +10,7 @@
     import Speech
     
     public class ViewController: UIViewController, SFSpeechRecognizerDelegate {
-        // MARK: Properties
+       
         
         private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))!
         
